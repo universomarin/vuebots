@@ -14,4 +14,4 @@ export default {
   COLOR_WHITEY: 'rgb(240,240,240)',
   COLOR_GREEN: 'rgb(0,155,77)',
   COLOR_TOMATO: 'rgb(243,114,114)'
-};
+}
