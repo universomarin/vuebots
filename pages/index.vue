@@ -1,5 +1,8 @@
 <template>
-  <Tutorial />
+  <div>
+    <MapIndex />
+    <h1>Test</h1>
+  </div>
 </template>
 
 <script lang="ts">
