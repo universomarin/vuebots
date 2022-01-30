@@ -2,6 +2,7 @@
   <GoogleMapLoader
     :map-config="mapConfig"
     api-key="AIzaSyANpV5T4YdyIJ30-N0s3Ca0U8TfRm1Vp7s"
+    class="google-map"
   >
     <template slot-scope="{ google, map }">
       <GoogleMapMarker
@@ -78,3 +79,10 @@ export default {
   }
 }
 </script>
+
+<style>
+  .google-map {
+    height: 400px;
+    width: 100%;
+  }
+</style>

@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>Map</h1>
+  <div class="content">
     <MapIndex class="map" />
+    <BotList />
   </div>
 </template>
 
@@ -14,6 +14,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+  .content {
+    display: flex;
+  }
   .map {
     height: 400px;
   }
