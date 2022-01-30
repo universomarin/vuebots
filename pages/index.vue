@@ -1,7 +1,7 @@
 <template>
   <div>
-    <MapIndex />
     <h1>Map</h1>
+    <MapIndex class="map" />
   </div>
 </template>
 
@@ -12,3 +12,9 @@ export default Vue.extend({
   name: 'IndexPage'
 })
 </script>
+
+<style scoped>
+  .map {
+    height: 400px;
+  }
+</style>

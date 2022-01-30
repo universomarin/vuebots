@@ -30,12 +30,10 @@ export default {
     }
   },
 
-  data () {
-    return {
-      google: null,
-      map: null
-    }
-  },
+  data: () => ({
+    google: null,
+    map: null
+  }),
 
   async mounted () {
     const googleMapApi = await GoogleMapsApiLoader({
@@ -55,8 +53,8 @@ export default {
 </script>
 
 <style scoped>
-.google-map {
-  width: 100%;
-  min-height: 100%;
-}
+  .google-map {
+    width: 100%;
+    min-height: 100%;
+  }
 </style>

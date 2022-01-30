@@ -19,7 +19,7 @@ export default {
 
   mounted () {
     const { Polyline } = this.google.maps
-    PolylineNew = new Polyline({
+    const PolylineNew = new Polyline({
       path: this.path,
       map: this.map,
       ...LINE_PATH_CONFIG

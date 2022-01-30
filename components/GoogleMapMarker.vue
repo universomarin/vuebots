@@ -19,8 +19,7 @@ export default {
 
   mounted () {
     const { Marker } = this.google.maps
-
-    MarkerNew = new Marker({
+    const MarkerNew = new Marker({
       position: this.marker.position,
       marker: this.marker,
       map: this.map,
